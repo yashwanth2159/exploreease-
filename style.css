@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1, h2 {
+    color: #d00000; /* Red */
+  }
+  
+  /* Section */
+  section {
+    max-width: 700px;
+    margin: auto;
+    background: #f9f9f9;
+    border: 2px solid #d00000;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  /* Labels & Inputs */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #d00000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a80000;
+  }
+  
+  /* Trip Output */
+  #trip-output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #d00000;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* About Section */
+  .about p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  

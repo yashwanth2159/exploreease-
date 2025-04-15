@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>India Trip Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ExploreEase </h1>
+  </header>
+
+  <section>
+    <label for="from">From:</label>
+    <input type="text" id="from" placeholder="Enter starting city" />
+
+    <label for="to">To:</label>
+    <input type="text" id="to" placeholder="Enter destination city" />
+
+    <br />
+    <button onclick="planTrip()">Plan Trip</button>
+    <div id="trip-output"></div>
+
+    <br />
+
+    <!-- EXTRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+    <p>
+      Example routes you can try:
+      <strong>Mumbai to Delhi</strong>, <strong>Delhi to Kolkata</strong>, 
+      <strong>Bengaluru to Chennai</strong>, <strong>Mumbai to Goa</strong>,
+      <strong>Hyderabad to Vizag</strong>, <strong>Delhi to Manali</strong>, 
+      <strong>Kolkata to Puri</strong>, <strong>Jaipur to Udaipur</strong>, 
+      <strong>Lucknow to Varanasi</strong>, <strong>Agra to Delhi</strong> and many more.
+    </p>
+    
+
+    <!-- About Button -->
+     <button onclick="window.location.href='about.html'">About This Tool</button> 
+     
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
